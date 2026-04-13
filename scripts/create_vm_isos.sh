@@ -73,8 +73,8 @@ sudo
 pciutils
 tuned
 libvirt
-systemd-networkd
-systemd-resolved
+NetworkManager
+NetworkManager-ovs
 linuxptp
 syslog-ng
 bridge-utils
@@ -217,8 +217,8 @@ tuned-profiles-realtime
 virt-install
 pcs
 pcs-snmp
-systemd-networkd
-systemd-resolved
+NetworkManager
+NetworkManager-ovs
 systemd-timesyncd
 openscap-scanner
 openscap
